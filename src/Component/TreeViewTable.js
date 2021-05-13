@@ -1,4 +1,5 @@
-import React, { Component, Fragment } from "react";
+// import from react
+import React, { Fragment } from "react";
 import TreeView from "@material-ui/lab/TreeView";
 import TreeItem from "@material-ui/lab/TreeItem";
 import { makeStyles } from "@material-ui/core/styles";
@@ -9,10 +10,6 @@ import {
   SvgIcon,
   fade,
 } from "@material-ui/core";
-
-const useViewStyles = makeStyles({
-  root: {},
-});
 
 const useItemStyles = makeStyles((theme) => ({
   root: {
@@ -59,7 +56,6 @@ const useItemStyles = makeStyles((theme) => ({
 }));
 
 const TreeViewTable = (props) => {
-  const classesView = useViewStyles();
   const classesItem = useItemStyles();
 
   const getHeaderName = () => {

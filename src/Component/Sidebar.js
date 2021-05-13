@@ -1,15 +1,13 @@
 import React from "react";
 import {
-  Grid,
   FormControl,
   FormControlLabel,
-  FormLabel,
   Radio,
   RadioGroup,
   TextField,
 } from "@material-ui/core";
 
-import { makeStyles, withStyles } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core";
 
 const style = makeStyles({
   sideMenu: {
@@ -20,7 +18,6 @@ const style = makeStyles({
     width: "240px",
     height: "100%",
     backgroundColor: "#D3D3D3",
-    borderRight: "5px solid #ffff00",
   },
 });
 

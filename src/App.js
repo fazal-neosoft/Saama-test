@@ -1,16 +1,10 @@
-// import logo from './logo.svg';
+// import from react
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
-import {
-  Grid,
-  FormControl,
-  FormControlLabel,
-  FormLabel,
-  Radio,
-  RadioGroup,
-} from "@material-ui/core";
-import ControlledTreeView from "./Component/ControlledTreeView";
+import { Grid } from "@material-ui/core";
+
+// import from component
 import TreeViewTable from "./Component/TreeViewTable";
 import Sidebar from "./Component/Sidebar";
 
@@ -43,7 +37,7 @@ function App() {
           dataKey={dataKey}
         />
       </Grid>
-      <Grid md={10}>
+      <Grid item md={10}>
         {listData[value] && (
           <TreeViewTable
             tableData={listData[value]}
