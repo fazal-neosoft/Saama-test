@@ -1,0 +1,36 @@
+{
+  "ICD_4": [
+    {
+      "description": "description",
+      "domain": "domain",
+      "vocab": "vocab",
+      "tree": [
+        {
+          "description": "description1",
+          "domain": "domain",
+          "vocab": "vocab"
+        },
+        {
+          "description": "description1",
+          "domain": "domain",
+          "vocab": "vocab"
+        },
+        {
+          "description": "description1",
+          "domain": "domain",
+          "vocab": "vocab"
+        },
+        {
+          "description": "description1",
+          "domain": "domain",
+          "vocab": "vocab"
+        },
+        {
+          "description": "description1",
+          "domain": "domain",
+          "vocab": "vocab"
+        }
+      ]
+    }
+  ]
+}
